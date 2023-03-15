@@ -1,0 +1,47 @@
+body {
+  background: #fd5d5d;
+  font-family: sans-serif;
+}
+
+.card {
+  width: 400px;
+  background: #ff0202;
+  margin: 16px auto;
+  /* */
+  padding: 8px;
+}
+
+.title {
+  background: #e3f4ff;
+  /* */
+  font-size: 16px;
+  margin: 0 0 8px 0;
+  padding: 8px;
+}
+
+.content {
+  background: #e3f4ff;
+   /* */
+ 
+   padding: 16px 8px;
+   margin-bottom: 8px;
+}
+
+.button-container {
+  background: #e3f4ff;
+  /* */
+ 
+  text-align: center;
+  padding: 8px;
+}
+
+button {
+  background: white;
+  border: 1px solid #eee;
+  /* */
+  display: block;
+  margin:  0 auto;
+  padding: 8px 24px;
+  
+}
+/*CHEECKKK*/
