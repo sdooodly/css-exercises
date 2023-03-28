@@ -26,26 +26,27 @@ input {
   margin-bottom: 16px;
 }
 
-.left-links, .right-links {
+.left-links,
+.right-links {
   display: flex;
   gap: 8px;
-  list-style-type: none; 
+  list-style-type: none;
   color: black;
-  
 }
 
-.header, .footer{
+.header,
+.footer {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
-.footer{
-  position:absolute;
-  bottom:0;
-  width:100%;
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   background-color: rgb(209, 159, 255);
 }
 
-a{
-  text-decoration:none
+a {
+  text-decoration: none;
 }
