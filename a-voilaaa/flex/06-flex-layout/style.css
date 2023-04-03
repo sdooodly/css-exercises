@@ -34,23 +34,37 @@ input {
   color: black;
 }
 
-.header,
-.footer {
+.header, .footer{
   display: flex;
   justify-content: space-between;
+  padding-right: 20px;
+  background-color: rgb(123, 248, 238);
+  
 }
 
-.footer {
+.footer{
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: rgb(209, 159, 255);
-}
-
-a {
-  text-decoration: none;
+  
 }
 
 .content{
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+
+}
+
+button{
+  background-color: inherit;
+  padding: 10px;
 }
